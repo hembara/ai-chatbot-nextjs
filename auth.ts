@@ -19,7 +19,7 @@ export const {
       return token
     },
 
-     authorized({ request, auth }) {
+      authorized({ request, auth }) {
      return !!auth?.user
     }
   },
